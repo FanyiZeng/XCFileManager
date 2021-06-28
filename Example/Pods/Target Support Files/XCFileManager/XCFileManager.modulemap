@@ -1,0 +1,6 @@
+framework module XCFileManager {
+  umbrella header "XCFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

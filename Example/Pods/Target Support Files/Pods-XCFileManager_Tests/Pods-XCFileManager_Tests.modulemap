@@ -1,0 +1,6 @@
+framework module Pods_XCFileManager_Tests {
+  umbrella header "Pods-XCFileManager_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
