@@ -1,0 +1,6 @@
+use_frameworks!
+target 'XCFileManager_Tests' do
+  pod 'XCFileManager', :path => '../'
+  
+  
+end
