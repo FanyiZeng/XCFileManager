@@ -20,4 +20,4 @@ echo "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
 git push origin master --tags
-pod trunk push ./CTMediator.podspec --verbose --use-libraries --allow-warnings
+pod trunk push ./XCFileManager.podspec --verbose --use-libraries --allow-warnings
