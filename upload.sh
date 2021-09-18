@@ -4,10 +4,10 @@ git stash
 git pull origin master --tags
 git stash pop
 
-VersionString=`grep -E 's.version.*=' CTMediator.podspec`
+VersionString=`grep -E 's.version.*=' XCFileManager.podspec`
 VersionNumber=`tr -cd 0-9 <<<"$VersionString"`
 NewVersionNumber=$(($VersionNumber + 1))
-LineNumber=`grep -nE 's.version.*=' CTMediator.podspec | cut -d : -f1`
+LineNumber=`grep -nE 's.version.*=' XCFileManager.podspec | cut -d : -f1`
 
 git add .
 git commit -am modification
